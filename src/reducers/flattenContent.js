@@ -22,7 +22,7 @@ const flattenLevel = (content, parentId) => {
       externalLink: item.externalLink,
       active: false,
       hasActiveChild: false,
-      subMenuVisibility: false,
+      subMenuVisibility: true,
     });
     if (typeof item.content !== 'undefined') {
       flatContent = [
